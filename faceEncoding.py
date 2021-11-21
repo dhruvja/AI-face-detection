@@ -24,7 +24,7 @@ for(i,imagePath) in enumerate(imagePaths):
         knownName.append(name)
     
 
-data = {"encodings": knownEncodings, "name": name}
+data = {"encodings": knownEncodings, "name": knownName}
 
 f = open("face_enc","wb")
 
